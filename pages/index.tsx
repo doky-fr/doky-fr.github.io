@@ -25,12 +25,12 @@ export default function Index() {
                 <title>Doky — Coming soon ...</title>
             </Head>
             <div className="container">
-                <img id="rocket" alt="Logo fusée" src="rocket.png" />
+                <img id="rocket" alt="Logo fusée" src="/rocket.png" />
                 <h1>Coming soon</h1>
                 <p>&laquo; On propulse vos idées &raquo;</p>
             </div>
             <div id="logo-container">
-                <img alt="Doky" src="doky.png" />
+                <img alt="Doky" src="/doky.png" />
             </div>
             <a href="https://github.com/doky-fr" target="_blank" rel="noopener">
                 <svg id="github" viewBox="0 0 24 24">
