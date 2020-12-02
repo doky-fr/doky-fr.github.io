@@ -1,21 +1,25 @@
 :root {
     --color-main1: #cedbe2;
     --color-main2: #69818a;
-    --color-main3: #042733;
+    --color-main3: #02181e;
 }
 
 html,
 body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    line-height: 1.6;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
 
     background-color: var(--color-main3);
     color: var(--color-main1);
+}
 
+* {
+    box-sizing: border-box;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,12 +29,37 @@ body {
     height: 100vh;
 }
 
-* {
-    box-sizing: border-box;
+#rocket {
+    max-width: 300px;
+    width: 70%;
+
+    object-fit: contain;
+    margin-bottom: 8vh;
 }
 
 h1 {
     text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#logo-container {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-container > img {
+    width: 100px;
+    object-fit: contain;
 }
 
 #github {
