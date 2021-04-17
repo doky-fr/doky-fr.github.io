@@ -27,7 +27,7 @@ export default function Index() {
             <div className="container">
                 <img id="rocket" alt="Logo fusée" src="/rocket.png" />
                 <h1>Coming soon</h1>
-                <p>&laquo; On propulse vos idées &raquo;</p>
+                <p>&laquo; Nous propulsons vos idées &raquo;</p>
             </div>
             <div id="logo-container">
                 <img alt="Doky" src="/doky.png" />
