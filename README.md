@@ -1,5 +1,6 @@
-# doky.fr website
+<p align="center">
+  <img src="logo.png" width="500" />
+</p>
 
-Coming soon ...
 
-[doky.fr](https://doky.fr)
+Website: [doky.fr](https://doky.fr)
